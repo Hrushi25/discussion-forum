@@ -1,0 +1,54 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.details
+{
+    height: 20%;
+}
+.question
+{
+    height: 3em;
+}
+.box
+{
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    border: none;
+    border-radius: 5px;
+    
+}
+.row
+{
+    top: 50%;
+    height: 100%;
+}
+input
+{
+    background-color: #e6e6ff;
+    border: 2px solid #685CD0;
+    border-radius: 5px;
+}
+input[type="submit"]
+{
+    position: relative;
+    background-color: darkorchid;
+    width: 10em;
+    left: 50%;
+    transform: translate(-50%,0%);
+    color: white;
+    cursor: pointer;
+}
+.change
+{
+    float: right;
+}
+.card
+{
+    background-color: beige;
+}

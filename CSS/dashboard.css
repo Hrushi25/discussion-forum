@@ -1,0 +1,15 @@
+body{
+    background-color: beige;
+    margin: 0;
+    border: 0px;
+}
+.link
+{
+    justify-content: flex-end;
+    text-align-last: right;
+    float: right;
+}
+.top-text
+{
+    font-size: 2em;
+}

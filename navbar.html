@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="navbar.css" type="text/css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <a href="#" class="side-open" onclick="OpenSideMenu()">
+                    <li>
+                        <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                        </svg>
+                    </li>
+                </a>
+                <a class="link-nav" href="#"><li>Dashboard</li></a>
+                <a class="link-nav" href="#"><li>Have a Question?</li></a>
+                <a class="link-nav" href="#"><li>Profile</li></a>
+                
+            </ul>
+            
+        </nav>
+        
+        <div class="side-nav" id="side-menu">
+                
+                <a href="#">Dashboard</a>
+                <a href="#">Have a Question?</a>
+                <a href="#">Profile</a>
+            
+        </div>
+        <div class="content" id="main-body">
+            <h1>
+                First Responsive Page!
+            </h1>
+        </div>
+        
+        
+        <script>
+            var i=0;
+            function OpenSideMenu()
+            {
+                if(i==0)
+                {
+                //document.getElementById('side-menu').style.display = 'inherit';
+                document.getElementById('side-menu').style.width = '250px';
+                //document.getElementById('main-body').style.marginLeft = '250px';
+                    i=1;
+                }
+                else
+                {
+                //document.getElementById('side-menu').style.display = 'none';
+                document.getElementById('side-menu').style.width = '0px';
+                document.getElementById('main-body').style.marginLeft = '0px';
+                    i=0;
+                }
+            }
+            
+        </script>
+        
+    </body>
+</html>

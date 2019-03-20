@@ -1,0 +1,4 @@
+CREATE TABLE `id6945263_forum`.`user` ( `name` VARCHAR(40) NOT NULL , `email` VARCHAR(40) NOT NULL , `user_type` CHAR(1) NOT NULL , `passwd` VARCHAR(20) NOT NULL , `phone` BIGINT(10) NOT NULL , `branch` CHAR(1) NOT NULL , UNIQUE `unique` (`email`(40))) ENGINE = InnoDB;
+
+CREATE TABLE `id6945263_forum`.`questions` ( `id` INT NOT NULL AUTO_INCREMENT , `question` VARCHAR(500) NOT NULL , `details` VARCHAR(2000) NOT NULL , `asked_by` VARCHAR(40) NOT NULL , `d_t` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
